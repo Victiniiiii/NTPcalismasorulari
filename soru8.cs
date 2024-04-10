@@ -1,7 +1,6 @@
 // Klavyeden girilen sayı n olsun. n! i hesaplayan programı yazınız.
 
 using System.Numerics;
-
 class Program
 {
     static void Main()
@@ -16,15 +15,21 @@ class Program
             faktoriyel *= i;
         }
 
-        Console.WriteLine("Faktöriyel sonucu: " + faktoriyel);
+        if (n < 0) {
+            Console.WriteLine("Lütfen pozitif bir tam sayı giriniz.");
+        }
+        else {
+            Console.WriteLine("Faktöriyel sonucu: " + faktoriyel);
+        }        
     }
 }
-
 
 // Bir sayi giriniz
 // 6
 // faktoriyel sonucu: 720
-
 // Bir sayi giriniz:
 // 31
 // Faktöriyel sonucu: 8222838654177922817725562880000000
+// Bir sayi giriniz:
+// -3
+// Lütfen pozitif bir tam sayi giriniz.
