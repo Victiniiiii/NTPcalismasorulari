@@ -1,3 +1,5 @@
+// Klavyeden girilen sayı n olsun. n in mükemmel sayı olup olmadığını hesaplayan programı yazınız.
+
 class Program
 {
     static void Main()
