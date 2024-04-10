@@ -1,3 +1,5 @@
+// ortalama?
+
 class Program
 {
     static void Main()
@@ -22,7 +24,6 @@ class Program
         }
     }
 }
-
 
 // Sayı giriniz
 // 3
