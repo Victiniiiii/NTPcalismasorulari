@@ -1,3 +1,5 @@
+// 1. 1 den 10 a kadar olan sayıların toplamını hesaplayan C# programını yazınız.
+
 class Program
 {
     static void Main()
