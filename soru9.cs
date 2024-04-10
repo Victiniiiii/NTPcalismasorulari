@@ -1,3 +1,5 @@
+// Klavyeden girilen sayı n olsun. n in asal olup olmadığını hesaplayan programı yazınız.
+
 class Program
 {
     static void Main()
@@ -23,7 +25,6 @@ class Program
         }
     }
 }
-
 
 // Bir sayi giriniz
 // 5
