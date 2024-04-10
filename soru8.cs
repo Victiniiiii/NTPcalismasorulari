@@ -1,3 +1,5 @@
+// Klavyeden girilen sayı n olsun. n! i hesaplayan programı yazınız.
+
 class Program
 {
     static void Main()
