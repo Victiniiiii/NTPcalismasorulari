@@ -1,3 +1,5 @@
+// Klavyeden girilen sayıların ortalamasını hesaplayan C# programını yazınız.(belirsiz)    
+
 class Program
 {
     static void Main()
