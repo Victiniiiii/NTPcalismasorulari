@@ -1,3 +1,5 @@
+// 2. Klavyeden girilen n satısı için 1 den n e kadar olan sayıların toplamını hesaplayan C# programını yazınız.
+
 class Program
 {
     static void Main()
@@ -15,7 +17,6 @@ class Program
         Console.WriteLine("1'den " + n + "e kadar olan sayıların toplamı: " + toplam);
     }
 }
-
 
 // Bir sayı giriniz.
 // 15
