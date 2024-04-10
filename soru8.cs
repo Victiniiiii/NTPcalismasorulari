@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-        BigInteger faktoriyel = 1;
+        BigInteger faktoriyel = 1; // Faktöriyel sayıları çok büyük olduğu için en başta System.Numerics ile BigInteger'i aktive ettik ve burada int yerine BigInteger kullandık 
         Console.WriteLine("Bir sayı giriniz:");
         string input = Console.ReadLine();
         int n = Convert.ToInt32(input);
