@@ -1,3 +1,5 @@
+// Bir sınıftaki 144 öğrencinin NTPG dersinden aldığı vize notlarının ortalamasını bulan C# programını yazınız.
+
 class Program
 {
     static void Main()
@@ -15,6 +17,5 @@ class Program
         Console.WriteLine("Notların ortalaması "+ortalama);
     }
 }
-
 
 // ( çalışıyor denedim ama çok uzun )
