@@ -1,5 +1,6 @@
 // Klavyeden girilen sayı n olsun. n! i hesaplayan programı yazınız.
 
+using System;
 using System.Numerics;
 class Program
 {
