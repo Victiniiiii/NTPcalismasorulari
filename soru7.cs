@@ -1,5 +1,6 @@
 // 8! i hesaplayan programı yazınız.
 
+using System;
 class Program
 {
     static void Main()
