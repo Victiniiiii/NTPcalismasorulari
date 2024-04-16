@@ -1,4 +1,5 @@
 // Klavyeden girilen 5 sayının toplamını hesaplayan C# programını yazınız.
+
 using System; 
 class Program
 {
