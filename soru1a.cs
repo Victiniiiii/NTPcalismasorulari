@@ -16,14 +16,4 @@ class Program
     }
 }
 
-// Sayı giriniz
-// 1
-// Sayı giriniz
-// 2
-// Sayı giriniz
-// 3
-// Sayı giriniz
-// 4
-// Sayı giriniz
-// 5
-// Girdiğiniz 5 sayının toplamı: 15 ortalamaları ise 3
+// 1'den 10'a kadar olan sayıların toplamı: 55
