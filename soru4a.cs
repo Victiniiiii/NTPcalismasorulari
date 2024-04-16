@@ -1,5 +1,6 @@
 // Negatif değer girilinceye kadar Klavyeden girilen sayıların toplamını hesaplayan C# programını yazınız.
 
+using System;
 class Program
 {
     static void Main()
