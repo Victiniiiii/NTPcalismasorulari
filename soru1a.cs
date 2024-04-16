@@ -1,4 +1,4 @@
-// Klavyeden girilen 5 sayının toplamını hesaplayan C# programını yazınız.
+// 1 den 10 a kadar olan sayıların toplamını hesaplayan C# programını yazınız.
 
 using System; 
 class Program
