@@ -1,5 +1,6 @@
 // Klavyeden girilen 5 sayının toplamını hesaplayan C# programını yazınız.
-using System; // online compiler kullanıyorsanız using System yazmalısınız
+
+using System; 
 class Program
 {
     static void Main()
