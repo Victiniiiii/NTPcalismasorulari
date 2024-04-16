@@ -11,7 +11,7 @@ class Program
         string input = Console.ReadLine();
         int n = Convert.ToInt32(input);
 
-        for (int i = n; i >= 1; i--)
+        for (int i = n; i > 0; i--)
         {
             faktoriyel *= i;
         }
