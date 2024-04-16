@@ -17,7 +17,7 @@ class Program
             }
         }
 
-        if (n == tambolenlertoplami){
+        if (n == tambolenlertoplami) {
             Console.WriteLine("Sayınız "+n+" ve tam bölenler toplamı "+tambolenlertoplami+" ve sayınız mükemmel! ");
         }
         else {
