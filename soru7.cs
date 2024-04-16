@@ -7,7 +7,7 @@ class Program
     {
         int faktoriyel = 1;
 
-        for (int i = 8; i>=1; i--)
+        for (int i = 8; i > 0; i--)
         {
             faktoriyel *= i;
         }
