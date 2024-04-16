@@ -1,7 +1,7 @@
 // Klavyeden girilen sayı n olsun. n! i hesaplayan programı yazınız.
 
 using System;
-using System.Numerics;
+using System.Numerics; // <----- faktoriyel kullanacaginiz zaman 
 class Program
 {
     static void Main()
