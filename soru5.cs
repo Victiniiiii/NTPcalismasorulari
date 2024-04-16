@@ -7,7 +7,7 @@ class Program
     {
         int toplam = 0;
 
-        for (int i = 1; i < 144; i++){
+        for (int i = 0; i < 144; i++){
             Console.WriteLine("Notu giriniz");
             string giris = Console.ReadLine();
             int not = Convert.ToInt32(giris);
