@@ -1,0 +1,52 @@
+Dış ortamdan girişi yapılan herhangi boyutlu bir veri kümesinin mod değerini 
+hesaplayan ve dış ortama aktaran algoritmayı tasarlayınız.
+
+PRINT "Kaç adet sayı gireceksiniz?"
+READ X 
+SAYILAR[X]
+Mod <-- 0
+TEKRAR <-- 0
+GÖSTERGE <-- 1
+G <-- 1
+
+FOR A <-- 1 TO X
+	READ SAYILAR[A]
+	FOR B <-- 1 TO A-1
+		IF SAYILAR[B] = SAYILAR[A]
+			TEKRAR <-- TEKRAR + 1
+			BREAK
+		ENDIF
+	REPEAT
+REPEAT
+
+C <-- X - TEKRAR
+TEKRARSIZSAYILAR[C]
+TEKRARSIZSAYILARADET[C]
+
+FOR Y <-- 1 TO C
+	TEKRARSIZSAYILARADET[Y] <-- 0
+REPEAT
+
+FOR D <-- 1 TO X 
+	FOR E <-- 1 TO G
+		IF SAYILAR[D] = TEKRARSIZSAYILAR[E] 
+			TEKRARSIZSAYILARADET[E] <-- TEKRARSIZSAYILARADET[E] + 1
+			GÖSTERGE <-- 0
+			BREAK
+		ENDIF
+	REPEAT
+	IF GÖSTERGE = 1 
+		TEKRARSIZSAYILAR[G] <-- SAYILAR[D]
+		TEKRARSIZSAYILARADET <-- TEKRARSIZSAYILARADET + 1
+		G = G+1
+	ENDIF
+	GÖSTERGE <-- 1
+REPEAT
+
+FOR J <-- 1 TO C
+	IF TEKRARSIZSAYILARADET[J] > Mod
+		Mod <-- TEKRARSIZSAYILARADET[J] 
+	ENDIF
+REPEAT
+
+PRINT "Veri kümesinin mod değeri", Mod
