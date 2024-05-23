@@ -2,7 +2,6 @@
 //    a. En yüksek notu bulun.
 
 using System;
-
 class Program
 {
     static void Main()
