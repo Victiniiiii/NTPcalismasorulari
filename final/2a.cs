@@ -10,7 +10,7 @@ class Program
         int[] vizeler = new int[150];
         int[] odevler = new int[150];
         int[] finaller = new int[150];
-        double[] genelnotlar = new double[150];
+        double[] genelnotlar = new double[150]; // yüksek ihtimalle virgüllü olacağı için double kullandım
         double maxnot = 0;
         int maxogrenci = 0;
 
