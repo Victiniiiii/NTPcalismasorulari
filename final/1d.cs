@@ -2,7 +2,6 @@
 //    d. Sınıf ortalamasını bulun.
 
 using System;
-
 class Program
 {
     static void Main()
