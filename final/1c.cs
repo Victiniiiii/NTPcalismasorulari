@@ -2,7 +2,6 @@
 //    c. 70-80 aralığında not alan kaç öğrenci vardır?
 
 using System;
-
 class Program
 {
     static void Main()
