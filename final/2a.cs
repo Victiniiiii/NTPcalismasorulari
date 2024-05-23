@@ -7,14 +7,14 @@ class Program
 {
     static void Main()
     {
-        int[] vizeler = new int[5];
-        int[] odevler = new int[5];
-        int[] finaller = new int[5];
-        double[] genelnotlar = new double[5];
+        int[] vizeler = new int[150];
+        int[] odevler = new int[150];
+        int[] finaller = new int[150];
+        double[] genelnotlar = new double[150];
         double maxnot = 0;
         int maxogrenci = 0;
 
-        for (int i = 0; i < 5; i++)  
+        for (int i = 0; i < 150; i++)  
         {
             Console.WriteLine("Öğrencinin vize notunu giriniz:");
             vizeler[i] = Convert.ToInt32(Console.ReadLine());    
