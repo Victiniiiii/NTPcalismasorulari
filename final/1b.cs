@@ -2,7 +2,6 @@
 //    b. En düşük not alan öğrenciyi bulun.
 
 using System;
-
 class Program
 {
     static void Main()
