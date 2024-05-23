@@ -12,8 +12,6 @@ class Program
         int[] odevler = new int[150];
         int[] finaller = new int[150];
         double[] genelnotlar = new double[150];
-        double ortalama = 0;
-        int AA = 0;
 
         for (int i = 0; i < 150; i++)  
         {
