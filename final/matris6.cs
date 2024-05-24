@@ -21,10 +21,10 @@ class Program
                 y[i] += dizi[i,j];
             }
 
-            for (int k = y[i]-1; k>1; k--) {            
-                if(y[i] % k == 0) {
+            for (int k = y[i]-1; k>1; k--) { // burada bir sayının asal olup olmadığını kontrol etmek için, o sayıyı sayının bir eksiğinden ( çünkü kendisine kalansız bölünecek )       
+                if (y[i] % k == 0) { // 2'ye kadar tüm sayılara bölmeye çalışıyoruz. eğer herhangi bir sayı kalansız bölünürse ( % işlemi 0 verecek ) o sayı asal değildir.
                     asallik = false;
-                    break;
+                    break; // bir işlemde asal çıkmazsa daha fazla bakmaya gerek yok
                 }
             }
 
