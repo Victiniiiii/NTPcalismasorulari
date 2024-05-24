@@ -18,3 +18,5 @@ class Program
 // -34 -15 0 3 4 5 7 22 43 100 
 
 // https://tr.wikibooks.org/wiki/C_Sharp_Programlama_Dili/Diziler#Dizileri_s%C4%B1ralama
+
+// Büyükten küçüğe isteseydi --> Array.Reverse(dizi); Bu kod dizi dizisinin tamamını ters çevirir. 
