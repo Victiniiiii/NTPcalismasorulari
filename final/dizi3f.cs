@@ -19,8 +19,8 @@ class Program
             }
         }
 
-        Console.WriteLine("En yüksek not: "+minnot);
+        Console.WriteLine("En düşük not: "+minnot);
     }
 }
 
-// En yüksek not: 11
+// En düşük not: 11
