@@ -7,7 +7,7 @@ class Program
 {
     static void Main()
     {        
-        Random rnd=new Random();
+        Random rnd = new Random();
         int[,] ilkmatris = new int[3,2];
         int[,] ikincimatris = new int[2,5];
         int[,] sonucmatris = new int [3,5]; // sonuç 3x5 lik bir matris olacak
