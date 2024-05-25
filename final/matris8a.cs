@@ -26,7 +26,8 @@ class Program
     }
 }
 
-/* 5 7 8 2 8 
+/* 
+5 7 8 2 8 
 2 1 7 3 9
 0 6 5 9 6
 1 1 0 7 3
@@ -35,4 +36,5 @@ Satirin toplami: 30
 Satirin toplami: 22
 Satirin toplami: 26
 Satirin toplami: 12
-Satirin toplami: 18 */
+Satirin toplami: 18 
+*/
