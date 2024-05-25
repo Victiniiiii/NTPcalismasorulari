@@ -1,5 +1,6 @@
 /* Matris
-C# ile iki 10×10 luk iki boyutlu bir dizi oluşturarak, oluşturulan bu çok boyutlu dizi içine rastgele sayılar atan ve daha sonra bu dizideki her bir satır ve sütunun toplamını hesaplayarak ekranda gösteren örneği oluşturalım.
+C# ile iki 10×10 luk iki boyutlu bir dizi oluşturarak, oluşturulan bu çok boyutlu dizi içine rastgele sayılar atan 
+ve daha sonra bu dizideki her bir satır ve sütunun toplamını hesaplayarak ekranda gösteren örneği oluşturalım.
 Yukarıdaki soruların matriste/matrisin satırlarında uygulanması
 */
 
@@ -33,7 +34,8 @@ class Program
     }
 }
 
-/* 1 1 4 8 4 5 4 2 6 4  
+/* 
+1 1 4 8 4 5 4 2 6 4  
 9 2 0 7 8 3 4 1 7 3
 2 0 3 1 8 5 2 6 5 9
 6 7 7 5 0 3 1 8 9 9
@@ -62,4 +64,5 @@ class Program
 6. Sütünun toplami:38
 7. Sütünun toplami:48
 8. Sütünun toplami:49
-9. Sütünun toplami:63 */
+9. Sütünun toplami:63 
+*/
