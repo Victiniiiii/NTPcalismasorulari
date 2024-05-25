@@ -26,9 +26,11 @@ class Program
     }
 }
 
-/* 0 5 4 9 4 
+/*
+0 5 4 9 4 
 4 6 7 9 7
 4 0 1 9 3
 9 4 2 0 7
 3 2 9 3 9
-Üçe bölünebilen matris kösegen elemani sayisi: 2 */
+Üçe bölünebilen matris kösegen elemani sayisi: 2 
+*/
