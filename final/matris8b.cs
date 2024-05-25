@@ -11,9 +11,12 @@ class Program
         int[,] matris = new int[5,5];
         int[] sutuncarpim = new int[5];
         Random rnd = new Random();
-
+        
         for (int i = 0; i < 5; i++) {
-            sutuncarpim[i] += 1; // diziler oluşurken içleri 0 olarak oluşurlar, ama çarpımları bulmak için 1 yapmam gerek
+            sutuncarpim[i] += 1; // diziler oluşurken içleri 0 olarak oluşurlar, ama çarpımları bulmak için 1 yapmam gerek 
+        }
+        
+        for (int i = 0; i < 5; i++) {            
             for (int j = 0; j < 5; j++) {
                 matris[i,j] = rnd.Next(0,10);
                 sutuncarpim[j] *= matris[i,j];
