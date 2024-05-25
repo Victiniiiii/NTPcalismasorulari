@@ -30,7 +30,8 @@ class Program
     }
 }
 
-/* 9 6 1 3 6 
+/* 
+9 6 1 3 6 
 6 2 0 5 1
 7 6 4 2 6
 9 2 8 5 3
@@ -39,4 +40,5 @@ Sütunun çarpimi: 3402
 Sütunun çarpimi: 144
 Sütunun çarpimi: 0
 Sütunun çarpimi: 150
-Sütunun çarpimi: 324 */
+Sütunun çarpimi: 324 
+*/
