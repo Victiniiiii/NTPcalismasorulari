@@ -1,0 +1,49 @@
+Piyasaya yeni çıkan 3 yemek kitabının 30 günlük satışları, 3 ayrı diziye gün gün kaydedilmektedir. Buna göre aşağıdaki istenenleri bulan ve görüntüleyen algoritmayı tasarlayınız.
+  a) Her kitap için en çok satış yapılan günü ve satış miktarı.
+  b) 30 gün sonunda en az satış yapılan kitabı ve satış miktarı.
+
+KITAP[3,30] (soruda dizi diyor ama matrisle yaptım yoksa bayaaa uzuyo)
+MAXGUN[3]
+MAXGUNINDEKS[3]
+KITAPTOTAL[3]
+MINKITAP <- 0
+MINKITAPMIKTAR <- 0
+
+FOR I <- 1 TO 3 DO
+  FOR J <- 1 TO 30 DO
+    PRINT "Değer giriniz."
+    READ KITAP[I,J]
+    KITAPTOTAL[I] <- KITAPTOTAL[I] + KITAP[I,J]
+    IF I = J THEN
+      MAXGUN[I] <- KITAP[I,J]
+      MAXGUNINDEKS[I] <- J
+    ENDIF
+    IF KITAP[I,J] > MAXGUN[I] THEN
+      MAXGUN[I] <- KITAP[I,J]
+      MAXGUNINDEKS[I] <- J
+    ENDIF    
+  REPEAT
+  IF I = 1 THEN
+    MINKITAP <- 1
+    MINKITAPMIKTAR <- KITAPTOTAL[1]
+  ENDIF
+  IF KITAPTOTAL[I] < MINKITAPMIKTAR THEN
+    MINKITAPMIKTAR <- KITAPTOTAL[I]
+    MINKITAP <- I
+  ENDIF
+REPEAT
+
+PRINT "Birinci kitabın satış miktarı: ", KITAPTOTAL[1]
+PRINT "İkinci kitabın satış miktarı: ", KITAPTOTAL[2]
+PRINT "Üçüncü kitabın satış miktarı: ", KITAPTOTAL[3]
+PRINT "En az satan kitap toplam ",MINKITAPMIKTAR," satış ile ",MINKITAP," numaralı kitap."
+
+
+
+
+
+
+
+
+
+
