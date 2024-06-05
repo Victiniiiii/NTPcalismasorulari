@@ -31,4 +31,4 @@ X'e DIZI[1]'i (5) atadık.
 DIZI[1]'e DIZI[2]'yi (4) atadık.
 DIZI[2]'ye X'i (5) atadık. yani DIZI[1] ve DIZI[2]'nin değerleri birbiriyle değişmiş oldu.
 serimiz ise 4,5,7,3,7,3,2,8 e dönüştü.
-Bu hareketi M-1 ( yani 7 ) kere tekrarlarsak seri sıralanmış olur.
+Bu fonskiyonu bitirinceye kadar tekrarlarsak seri sıralanmış olur.
