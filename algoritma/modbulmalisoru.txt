@@ -1,0 +1,40 @@
+Dış ortamdan girişi yapılan herhangi boyutlu bir veri kümesinin mod değerini hesaplayan ve dış ortama aktaran algoritmayı tasarlayınız.
+
+PRINT "Kaç sayı gireceksiniz ?"
+READ N
+DIZI[N]
+DIZITEKRAR[N]
+MAXTEKRARLANAN <- 0
+MAX <- 0
+
+FOR I <- 1 TO N DO
+  PRINT I,". sayıyı giriniz."
+  READ DIZI[I]
+REPEAT
+
+FOR I <- 1 TO N DO
+  FOR J <- 1 TO N DO
+    IF DIZI[I] = DIZI[J] THEN 
+      DIZITEKRAR[I] <- DIZITEKRAR[I] + 1
+    ENDIF
+  REPEAT
+REPEAT
+
+FOR I <- 1 TO N DO
+  IF I = 1 THEN MAXTEKRARLANAN <- DIZITEKRAR[1] ENDIF
+  IF DIZITEKRAR[I] > MAXTEKRARLANAN THEN 
+    MAXTEKRARLANAN <- DIZITEKRAR[I] 
+    MAX <- DIZI[I]
+  ENDIF
+REPEAT
+
+PRINT "Dizinin modu ", MAX, ", toplam " MAXTEKRARLANAN," kez tekrarlandı!"
+
+
+
+Deniyorum: dizi şöyle olsun: 6, 7, 4, 3, 2, 5, 4, 4, 6, 7, 8, 4, 3, 2, 3, 4, 4, 5
+İlk loop ile diziye sayıları girdik.
+İkinci loop içinde aynı uzunluktaki DIZITEKRAR serisine dizideki her sayının kaç kere tekrarlandığını yazdık.
+DIZITEKRAR serisi şöyle oldu: [2, 2, 5, 3, 2, 2, 5, 5, 2, 2, 1, 5, 3, 2, 3, 5, 5, 2] ( bunu okumadım yanlış olabilir )
+Üçüncü loop sonunda MAXTEKRARLANAN, DIZITEKRAR serisinin en çok tekrarlanan sayısını bulacak. 
+En çok tekrarlanan sayı 4, yani DIZITEKRAR serisinin 3. elemanı olarak seçildi. 
