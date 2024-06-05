@@ -1,0 +1,34 @@
+Bu algoritma bir dizinin elemanlarını küçükten büyüğe sıralar. 
+
+DIZI'nin elemanları 5,4,7,3,7,3,2,8 olarak verilmiş olsun.
+M = 8, yani dizinin eleman sayısı
+
+FOR I <- 1 TO M - 1
+  FOR J <- I + 1 TO M
+    IF DIZI[I] > DIZI[J]
+      X <- B[I]
+      B[I] <- B[J]
+      B[J] <- X
+    ENDIF
+  REPEAT
+REPEAT
+
+İlk FOR'da M-1'e kadar gitmemizin sebebi şudur, dizinin en küçük elemanının en sonda olduğunu düşünün.
+Onu en sağdan ([8]) en sola getirmemiz ([1]) tam olarak 7 loop, yani M-1 adet loop sürecektir. 
+M-1 inci loopun sonunda algoritma zaten sıralanmış olacak.
+
+İkinci FOR'da bir sayıyı kendisiyle kıyaslamamak için J'yi I'nin bir fazlasından başlatıyoruz.
+
+IF'in içi sadece iki sayının birbiri ile yer değiştirmesinden ibaret. Yer değiştirme fonksiyonu olmadığı için bir sayıyı o anlık X'e atıyoruz, ikinciyi birinciye atıyoruz, sonra X'i ikinciye atıyoruz.
+Bu şekilde birinci ve ikinci eleman yer değiştirmiş oluyor.
+
+Deneyelim:
+
+I, 1 oldu
+J, 2 oldu
+Eğer DIZI[1] DIZI[2] den büyük ise ( 5, 4'ten büyük )
+X'e DIZI[1]'i (5) atadık.
+DIZI[1]'e DIZI[2]'yi (4) atadık.
+DIZI[2]'ye X'i (5) atadık. yani DIZI[1] ve DIZI[2]'nin değerleri birbiriyle değişmiş oldu.
+serimiz ise 4,5,7,3,7,3,2,8 e dönüştü.
+Bu hareketi M-1 ( yani 7 ) kere tekrarlarsak seri sıralanmış olur.
