@@ -3,9 +3,9 @@ Bu algoritma bir dizinin elemanlarını küçükten büyüğe sıralar.
 DIZI'nin elemanları 5,4,7,3,7,3,2,8 olarak verilmiş olsun.
 M = 8, yani dizinin eleman sayısı
 
-FOR I <- 1 TO M - 1
-  FOR J <- I + 1 TO M
-    IF DIZI[I] > DIZI[J]
+FOR I <- 1 TO M - 1 DO
+  FOR J <- I + 1 TO M DO
+    IF DIZI[I] > DIZI[J] THEN
       X <- B[I]
       B[I] <- B[J]
       B[J] <- X
