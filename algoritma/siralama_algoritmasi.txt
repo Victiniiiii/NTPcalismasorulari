@@ -13,14 +13,13 @@ FOR I <- 1 TO M - 1 DO
   REPEAT
 REPEAT
 
-İlk FOR'da M-1'e kadar gitmemizin sebebi şudur, dizinin en küçük elemanının en sonda olduğunu düşünün.
-Onu en sağdan ([8]) en sola getirmemiz ([1]) tam olarak 7 loop, yani M-1 adet loop sürecektir. 
-M-1 inci loopun sonunda algoritma zaten sıralanmış olacak.
-
+İlk FOR'da M-1'e kadar gitmemizin sebebi şudur, her I loopunda dizinin I. sırasındaki rakamı buluyoruz. Mesela 
+I 1 ise, dizinin en küçük rakamını buluyoruz, I 2 ise, ikinci en küçük rakamı buluyoruz. 8 elemanlı bir diziyi 
+sıralarken ilk 7 elemanı sıralarsanız zaten sona en büyük eleman kalacak, yani diziyi bir sefer az çalıştırabileceksiniz.
 İkinci FOR'da bir sayıyı kendisiyle kıyaslamamak için J'yi I'nin bir fazlasından başlatıyoruz.
 
-IF'in içi sadece iki sayının birbiri ile yer değiştirmesinden ibaret. Yer değiştirme fonksiyonu olmadığı için bir sayıyı o anlık X'e atıyoruz, ikinciyi birinciye atıyoruz, sonra X'i ikinciye atıyoruz.
-Bu şekilde birinci ve ikinci eleman yer değiştirmiş oluyor.
+IF'in içi sadece iki sayının birbiri ile yer değiştirmesinden ibaret. Yer değiştirme fonksiyonu olmadığı için bir sayıyı o anlık X'e atıyoruz, 
+ikinciyi birinciye atıyoruz, sonra X'i ikinciye atıyoruz. Bu şekilde birinci ve ikinci eleman yer değiştirmiş oluyor.
 
 Deneyelim:
 
@@ -31,4 +30,4 @@ X'e DIZI[1]'i (5) atadık.
 DIZI[1]'e DIZI[2]'yi (4) atadık.
 DIZI[2]'ye X'i (5) atadık. yani DIZI[1] ve DIZI[2]'nin değerleri birbiriyle değişmiş oldu.
 serimiz ise 4,5,7,3,7,3,2,8 e dönüştü.
-Bu fonskiyonu bitirinceye kadar tekrarlarsak seri sıralanmış olur.
+Bu fonksiyonu bitirinceye kadar tekrarlarsak seri sıralanmış olur.
